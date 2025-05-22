@@ -1,32 +1,33 @@
 
  
 
-import { useState } from 'react'
+ 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
 
 function App() { 
       
   return (
     <div>
-    <navigation>
+    <nav>
     <div className="nav">
      <div>
-      <img src="/public/brand_logo.png" alt="brand logo"/>
+        <img src="/images/brand_logo.png" alt="logo"/>
     </div>
     <div className="title">
-      <li href="#">Menu</li>
-      <li href="#">Location</li>
-      <li href="#">About</li>
-      <li href="#">Contact</li>
+      <ul className='title'>
+      <li><a href="#">Menu </a></li>
+      <li><a href="#">Location</a></li>
+      <li> <a href="#">About</a></li>
+      <li ><a href="#">Contact</a></li>
+       </ul>
     </div>
     <div>
-      <img src="/public/Button.png " alt="button login"/>
+      <img src="/images/Button.png " alt="button login"/>
     </div>
     </div>
-  </navigation>
+  </nav>
   <div className="container">
     <div className="first">
   <div className="heading">
@@ -46,12 +47,12 @@ function App() {
   </div>
   <div className="brandlogo">
     <p>Also Available On</p>
-    <img src="/public/flipkart.png" alt="filpkart"/>
-    <img src="/public/amazon.png" alt="amazon"/>
+    <img src="/images/flipkart.png" alt="filpkart"/>
+    <img src="/images/amazon.png" alt="amazon"/>
   </div>
   </div>
   <div>
-    <img src="/public/shoe_image.png" alt="shoes img"/>
+    <img src="/images/shoe_image.png" alt="shoes img"/>
   </div>
   </div>
     </div>
